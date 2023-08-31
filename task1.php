@@ -13,7 +13,9 @@ while($i <= 100){
         case !is_float($i/5);
             echo 'Buzz: ';
             break;
+        case $i;
+            echo $i;
+        break;
     }
-    echo $i .'<br>';
     $i++;
 }
